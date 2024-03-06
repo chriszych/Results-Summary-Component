@@ -1,0 +1,81 @@
+/*// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.hanken-grotesk-<uniquifier> {
+  font-family: "Hanken Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+## Colors
+### Primary
+- Light red: hsl(0, 100%, 67%)
+- Orangey yellow: hsl(39, 100%, 56%)
+- Green teal: hsl(166, 100%, 37%)
+- Cobalt blue: hsl(234, 85%, 45%)
+## Gradients
+- Light slate blue (background): hsl(252, 100%, 67%)
+- Light royal blue (background): hsl(241, 81%, 54%)
+- Violet blue (circle): hsla(256, 72%, 46%, 1)
+- Persian blue (circle): hsla(241, 72%, 46%, 0)
+### Neutral
+- White: hsl(0, 0%, 100%)
+- Pale blue: hsl(221, 100%, 96%)
+- Light lavender: hsl(241, 100%, 89%)
+- Dark gray blue: hsl(224, 30%, 27%)
+*/
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: "Hanken Grotesk", sans-serif;
+    font-size: 18;
+}
+.leftpanel {
+    color: white;
+    background-color: hsl(241, 81%, 54%);
+    max-width: 307px;
+    height: 425px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px 20px;
+}
+.rightpanel {
+    background-color: aqua;
+    width: 307px;
+    height: 425px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:space-between;
+
+}
+.score {
+    background-color: hsl(234, 85%, 45%);
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.bigscore {
+    font-size: 4rem;
+    font-weight: 700;
+}
+.leftpanel p {
+    max-width: 75%;
+    text-align: center;   
+}
+.reaction {
+    color: hsl(0, 100%, 67%);
+    font-weight: 700;
+    background-color: hsl(0, 100%, 67%, 10%);
+    height: 10%;
+    width: 75%; 
+}
