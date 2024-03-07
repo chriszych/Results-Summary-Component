@@ -45,14 +45,18 @@ main {
     border-radius: 20px 20px;
 }
 .rightpanel {
-    background-color: aqua;
+    background-color: white;
     width: 307px;
     height: 425px;
     display: flex;
     flex-direction: column;
     align-items:center;
-    justify-content:space-between;
+    justify-content:center;
+    gap: 3%;
 
+}
+.rightpanel h2 {
+    align-self: self-start;
 }
 .score {
     background-color: hsl(234, 85%, 45%);
@@ -72,10 +76,64 @@ main {
     max-width: 75%;
     text-align: center;   
 }
+.summary{
+    height: 75%;
+    width: 100%; 
+}
+
+
 .reaction {
     color: hsl(0, 100%, 67%);
     font-weight: 700;
-    background-color: hsl(0, 100%, 67%, 10%);
+    background-color: hsl(0, 100%, 67%, 15%);
     height: 10%;
     width: 75%; 
+    display: flex;
+    align-items: center;
+    justify-content:left;
+    gap: 10%;
+    border-radius: 5px;
+}
+.memory {
+    color: hsl(39, 100%, 56%);
+    font-weight: 700;
+    background-color: hsl(39, 100%, 56%, 15%);
+    height: 10%;
+    width: 75%; 
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    border-radius: 5px;
+}
+.verbal {
+    color: hsl(166, 100%, 37%);
+    font-weight: 700;
+    background-color: hsl(166, 100%, 37%, 15%);
+    height: 10%;
+    width: 75%; 
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    border-radius: 5px;
+}
+.visual {
+    color: hsl(234, 85%, 45%);
+    font-weight: 700;
+    background-color: hsl(234, 85%, 45%, 15%);
+    height: 10%;
+    width: 75%; 
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    border-radius: 5px;
+}
+.continue {
+    color: white;
+    font-family: "Hanken Grotesk", sans-serif;
+    font-size: 18;
+    background-color: hsl(224, 30%, 27%);
+    height: 10%;
+    width: 75%;
+    border-radius: 20px;
+
 }
