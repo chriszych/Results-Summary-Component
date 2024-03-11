@@ -34,8 +34,8 @@ main {
     font-size: 18;
 }
 .leftpanel {
-    color: white;
-    background-color: hsl(241, 81%, 54%);
+    color: hsla(0, 0%, 100%, 75%);
+    background: linear-gradient(180deg, hsla(252, 100%, 67%, 1), hsla(241, 81%, 54%, 1));
     max-width: 307px;
     height: 425px;
     display: flex;
@@ -52,14 +52,16 @@ main {
     flex-direction: column;
     align-items:center;
     justify-content:center;
-    gap: 3%;
-
+    border-radius: 20px 20px;
+    gap: 5%;
 }
-.rightpanel h2 {
-    align-self: self-start;
+.rightpanel h2 {    
+    text-align: left;
+    align-self: flex-start;
+    margin-left: 2rem;
 }
 .score {
-    background-color: hsl(234, 85%, 45%);
+    background: linear-gradient(180deg, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
     height: 160px;
     width: 160px;
     border-radius: 50%;
@@ -69,6 +71,7 @@ main {
     justify-content: center;
 }
 .bigscore {
+    color: white;
     font-size: 4rem;
     font-weight: 700;
 }
@@ -76,56 +79,43 @@ main {
     max-width: 75%;
     text-align: center;   
 }
+.leftpanel h1 {
+    color: white;
+    margin: rem;
+}
 .summary{
     height: 75%;
     width: 100%; 
 }
-
-
+.summarySection {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: .5rem;
+}
+.summaryResult {
+    align-items: right;
+    color: gray;
+}
+.summaryScore {
+    color: black;
+    font-weight: 900;
+}
 .reaction {
     color: hsl(0, 100%, 67%);
-    font-weight: 700;
-    background-color: hsl(0, 100%, 67%, 15%);
-    height: 10%;
-    width: 75%; 
-    display: flex;
-    align-items: center;
-    justify-content:left;
-    gap: 10%;
-    border-radius: 5px;
+    background-color: hsl(0, 100%, 67%, 7%);
 }
 .memory {
     color: hsl(39, 100%, 56%);
-    font-weight: 700;
-    background-color: hsl(39, 100%, 56%, 15%);
-    height: 10%;
-    width: 75%; 
-    display: flex;
-    align-items: center;
-    justify-content:space-around;
-    border-radius: 5px;
+    background-color: hsl(39, 100%, 56%, 7%);
 }
 .verbal {
     color: hsl(166, 100%, 37%);
-    font-weight: 700;
-    background-color: hsl(166, 100%, 37%, 15%);
-    height: 10%;
-    width: 75%; 
-    display: flex;
-    align-items: center;
-    justify-content:space-around;
-    border-radius: 5px;
+    background-color: hsl(166, 100%, 37%, 7%);
 }
 .visual {
     color: hsl(234, 85%, 45%);
-    font-weight: 700;
-    background-color: hsl(234, 85%, 45%, 15%);
-    height: 10%;
-    width: 75%; 
-    display: flex;
-    align-items: center;
-    justify-content:space-around;
-    border-radius: 5px;
+    background-color: hsl(234, 85%, 45%, 7%);
 }
 .continue {
     color: white;
@@ -135,5 +125,14 @@ main {
     height: 10%;
     width: 75%;
     border-radius: 20px;
-
+}
+.summaryPart {
+    font-weight: 700;
+    height: 10%;
+    width: 75%; 
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    border-radius: 5px;
+    gap: 2rem;
 }
