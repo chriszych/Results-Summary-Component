@@ -33,6 +33,17 @@ main {
     font-family: "Hanken Grotesk", sans-serif;
     font-size: 18;
 }
+.frame {
+    max-width: 307px;
+    height: 425px;
+    background-color: white;
+    border-top-left-radius: 20px 20px;
+    border-bottom-left-radius: 20px 20px;
+    -webkit-box-shadow: 10px 12px 13px 4px rgba(200, 199, 255, 0.3);
+    -moz-box-shadow: 10px 12px 13px 4px rgba(200, 199, 255, 0.3);
+    box-shadow: 10px 12px 13px 4px rgba(200, 199, 255, 0.3);
+
+}
 .leftpanel {
     color: hsla(0, 0%, 100%, 75%);
     background: linear-gradient(180deg, hsla(252, 100%, 67%, 1), hsla(241, 81%, 54%, 1));
@@ -43,6 +54,8 @@ main {
     align-items: center;
     justify-content: center;
     border-radius: 20px 20px;
+
+
 }
 .rightpanel {
     background-color: white;
@@ -52,8 +65,14 @@ main {
     flex-direction: column;
     align-items:center;
     justify-content:center;
-    border-radius: 20px 20px;
+    border-top-right-radius: 20px 20px;
+    border-bottom-right-radius: 20px 20px;
     gap: 5%;
+    -webkit-box-shadow: 10px 12px 13px 4px rgba(200, 199, 255, 0.3);
+    -moz-box-shadow: 10px 12px 13px 4px rgba(200, 199, 255, 0.3);
+    box-shadow: 10px 12px 13px 4px rgba(200, 199, 255, 0.3);
+
+
 }
 .rightpanel h2 {    
     text-align: left;
@@ -125,6 +144,11 @@ main {
     height: 10%;
     width: 75%;
     border-radius: 20px;
+    border: none;
+}
+.continue:hover{
+    background: linear-gradient(180deg, hsla(252, 100%, 67%, 1), hsla(241, 81%, 54%, 1));
+    cursor: pointer;
 }
 .summaryPart {
     font-weight: 700;
@@ -135,4 +159,7 @@ main {
     justify-content:space-around;
     border-radius: 5px;
     gap: 2rem;
+}
+.attribution {
+    display: none;
 }
