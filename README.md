@@ -27,11 +27,11 @@ Users should be able to:
 
 ### Screenshots
 
-![fullpage design screenshot](./addons/screen_1440.jpg)
+![fullpage design screenshot](./design/screen_1440.jpg)
 
-![design screenshot](./addons/screen_900.jpg)
+![design screenshot](./design/screen_900.jpg)
 
-![mobile design screenshot](./addons/screen_mobile375.jpg)
+![mobile design screenshot](./design/screen_mobile375.jpg)
 
 
 ### Links
